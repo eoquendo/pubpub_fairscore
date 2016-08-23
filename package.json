@@ -1,0 +1,96 @@
+{
+  "_args": [
+    [
+      {
+        "name": "decay",
+        "raw": "decay@^1.0.10",
+        "rawSpec": "^1.0.10",
+        "scope": null,
+        "spec": ">=1.0.10 <2.0.0",
+        "type": "range"
+      },
+      "/Users/emmanueloquendo/Desktop/pubpub"
+    ]
+  ],
+  "_from": "decay@>=1.0.10 <2.0.0",
+  "_id": "decay@1.0.10",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/decay",
+  "_nodeVersion": "4.2.3",
+  "_npmOperationalInternal": {
+    "host": "packages-6-west.internal.npmjs.com",
+    "tmp": "tmp/decay-1.0.10.tgz_1455802741427_0.03437346965074539"
+  },
+  "_npmUser": {
+    "email": "analsandblaster@gmail.com",
+    "name": "clux"
+  },
+  "_npmVersion": "2.14.7",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "decay",
+    "raw": "decay@^1.0.10",
+    "rawSpec": "^1.0.10",
+    "scope": null,
+    "spec": ">=1.0.10 <2.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/decay/-/decay-1.0.10.tgz",
+  "_shasum": "8fbd0ea4e0673cc801e84f1b11771f05e617e5fd",
+  "_shrinkwrap": null,
+  "_spec": "decay@^1.0.10",
+  "_where": "/Users/emmanueloquendo/Desktop/pubpub",
+  "author": {
+    "email": "analsandblaster@gmail.com",
+    "name": "Eirik Albrigtsen"
+  },
+  "bugs": {
+    "url": "https://github.com/clux/decay/issues"
+  },
+  "dependencies": {},
+  "description": "Famous sorting algorithms based on vote popularity and time",
+  "devDependencies": {
+    "jscoverage": "^0.5.5",
+    "nodeunit": "^0.9.0"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "8fbd0ea4e0673cc801e84f1b11771f05e617e5fd",
+    "tarball": "https://registry.npmjs.org/decay/-/decay-1.0.10.tgz"
+  },
+  "gitHead": "aa7a102fb1a4017bba8afde3681d5a90197cf103",
+  "homepage": "https://github.com/clux/decay#readme",
+  "keywords": [
+    "hotsort",
+    "hackerhot",
+    "wilsonscore",
+    "popularity",
+    "sorting",
+    "voting"
+  ],
+  "license": "MIT",
+  "main": "decay.js",
+  "maintainers": [
+    {
+      "email": "analsandblaster@gmail.com",
+      "name": "clux"
+    }
+  ],
+  "name": "decay",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clux/decay.git"
+  },
+  "scripts": {
+    "coverage": "DECAY_COV=1 nodeunit --reporter=lcov test/*.js",
+    "precoverage": "jscoverage decay.js",
+    "test": "nodeunit --reporter=verbose test/*.js"
+  },
+  "version": "1.0.10"
+}
